@@ -10,7 +10,7 @@ class Humanity:
         if population >= 0:
             self.__population = population
         else:
-            print("❌ Населення не може бути від'ємним")
+            print("Населення не може бути від'ємним")
 
     def info(self):
         return f"Людство живе на планеті {self.planet}. Населення: {self.__population}"
