@@ -30,19 +30,3 @@ class Person(Humanity):
 
     def live(self):
         return f"{self.name} живе, навчається та взаємодіє з суспільством."
-
-
-humanity = Humanity("Земля", 8000000000)
-person = Person("Земля", 8000000000, "Андрій", 18)
-
-print(humanity.info())
-print(humanity.live())
-
-print()
-
-print(person.info())
-print(person.live())
-
-print("\nНаселення (через getter):", humanity.get_population())
-humanity.set_population(8100000000)
-print("Оновлене населення:", humanity.get_population())
